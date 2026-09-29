@@ -1,0 +1,16 @@
+body {
+    background: #f1f5f9;
+    font-family: Arial, sans-serif;
+    margin: 30px auto;
+    max-width: 740px;
+}
+label, input { margin: 8px 6px 8px 0; }
+input { padding: 9px; width: 150px; }
+button {
+    background: darkcyan;
+    color: white;
+    padding: 11px 16px;
+    border: 0;
+    border-radius: 8px;
+}
+.error { color: #b91c1c; font-weight: bold; }
