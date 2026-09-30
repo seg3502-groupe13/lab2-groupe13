@@ -15,13 +15,15 @@
     <label for="second">Deuxième nombre :</label>
     <input id="second" name="second" th:value="${second}">
 
-    <label for="op">Opération :</label>
-    <select id="op" name="operation">
-        <option value="+">Addition (+)</option>
-        <option value="-">Soustraction (-)</option>
-        <option value="*">Multiplication (*)</option>
-        <option value="/">Division (/)</option>
-    </select>
+    <span class="operation">
+        <label for="op">Opération :</label>
+        <select id="op" name="operation">
+            <option value="+">Addition (+)</option>
+            <option value="-">Soustraction (-)</option>
+            <option value="*">Multiplication (*)</option>
+            <option value="/">Division (/)</option>
+        </select>
+    </span>
 
     <button type="submit">Calculer</button>
 </form>

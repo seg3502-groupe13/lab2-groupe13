@@ -5,7 +5,17 @@ body {
     max-width: 740px;
 }
 label, input { margin: 8px 6px 8px 0; }
-input { padding: 9px; width: 150px; }
+input, select { padding: 9px; }
+input { width: 150px; }
+.operation {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 12px 8px 0;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.operation label { margin: 0; }
 button {
     background: darkcyan;
     color: white;
